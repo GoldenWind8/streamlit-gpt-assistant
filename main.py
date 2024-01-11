@@ -71,5 +71,5 @@ def get_response(st, prompt):
 
 
 if __name__ == "__main__":
-    os.environ["OPENAI_API_KEY"] = "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"
+    os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
     main()
